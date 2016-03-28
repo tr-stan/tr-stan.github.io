@@ -3,30 +3,29 @@ body {
 }
 
 .jumbotron {
-  min-height: 100%;
-  height: 700px;
-  background: url(https://images.unsplash.com/photo-1436891620584-47fd0e565afb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=df6386c2e327ae9dbc7e5be0bef4e1d6) no-repeat center center;
+  background: url(https://images.unsplash.com/photo-1436891620584-47fd0e565afb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=df6386c2e327ae9dbc7e5be0bef4e1d6) no-repeat center center fixed;
   background-size: cover;
+  min-height: 100%;
   margin-top: 40px;
   margin-bottom: 0px;
 }
 
 #tri-be {
-  background: url(https://images.unsplash.com/photo-1456610981819-586798dc53e2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1bc6c5b410fb1a4e13e2473ae5ea1c57) no-repeat center center;
+  background: url(https://images.unsplash.com/photo-1456610981819-586798dc53e2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1bc6c5b410fb1a4e13e2473ae5ea1c57) no-repeat center center fixed;
   background-size: cover;
-  height: 700px;
+  min-height: 100%;
 }
 
 #inscri-be {
-  background: url(https://images.unsplash.com/photo-1451186242394-2b461812025b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4d28a86f983f06d787b0b24ef90d89ad) no-repeat center center;
+  background: url(https://images.unsplash.com/photo-1451186242394-2b461812025b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4d28a86f983f06d787b0b24ef90d89ad) no-repeat center center fixed;
   background-size: cover;
-  height: 700px;
+  min-height: 100%;
 }
 
 #subscri-be {
-  background: url(https://images.unsplash.com/photo-1443479579455-1860f114bf77?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0c4227af4ee924c7af3b22e5bf1baa10) no-repeat center center;
+  background: url(https://images.unsplash.com/photo-1443479579455-1860f114bf77?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0c4227af4ee924c7af3b22e5bf1baa10) no-repeat center center fixed;
   background-size: cover;
-  height: 700px;
+  min-height: 100%;
 }
 /*Start #navLogo*/
 #navLogo {
