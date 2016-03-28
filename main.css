@@ -1,0 +1,176 @@
+body {
+  font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+}
+
+.jumbotron {
+  min-height: 100%;
+  height: 700px;
+  background: url(https://images.unsplash.com/photo-1436891620584-47fd0e565afb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=df6386c2e327ae9dbc7e5be0bef4e1d6) no-repeat center center;
+  background-size: cover;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+#tri-be {
+  background: url(https://images.unsplash.com/photo-1456610981819-586798dc53e2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1bc6c5b410fb1a4e13e2473ae5ea1c57) no-repeat center center;
+  background-size: cover;
+  height: 700px;
+}
+
+#inscri-be {
+  background: url(https://images.unsplash.com/photo-1451186242394-2b461812025b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4d28a86f983f06d787b0b24ef90d89ad) no-repeat center center;
+  background-size: cover;
+  height: 700px;
+}
+
+#subscri-be {
+  background: url(https://images.unsplash.com/photo-1443479579455-1860f114bf77?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0c4227af4ee924c7af3b22e5bf1baa10) no-repeat center center;
+  background-size: cover;
+  height: 700px;
+}
+/*Start #navLogo*/
+#navLogo {
+  height: 40px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 40px;
+  margin: 5px;
+  border-radius: 285px;
+}
+
+#navLogo div {
+  position: absolute;
+}
+
+#navLogo .red {
+  border-radius: 360px / 300px;
+  background: #fd463b;
+  height: 42px;
+  width: 48px;
+  top: -20px;
+  left: -4px;
+  -webkit-transform: rotate(70deg);
+}
+
+#navLogo .green {
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  background: #9cc492;
+  height: 40px;
+  width: 40px;
+}
+
+#navLogo .white {
+  background: #FFC;
+  border-radius: 150px;
+  -webkit-border-radius: 140px;
+  -moz-border-radius: 150px;
+  height: 29px;
+  width: 33px;
+  left: 3px;
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+}
+
+#navLogo .outside {
+  height: 50px;
+  width: 50px;
+  border-radius: 285px;
+  -webkit-border-radius: 285px;
+  -moz-border-radius: 285px;
+  border: 6px solid #9cc492;
+  left: -5px;
+  top: -5px;
+}
+/*End #navLogo*/
+
+/* Begin #logo */
+#logo {
+  height: 320px;
+  margin: 0px auto;
+  padding: 2px 2px;
+  overflow: hidden;
+  position: relative;
+  width: 320px;
+  margin-top: 50px;
+  border-radius: 285px;
+  -webkit-border-radius: 285px;
+  -moz-border-radius: 285px;
+}
+
+#logo h1 {
+  margin: 0 auto;
+  position: relative;
+  left: 145px;
+  top: 120px;
+  color: #FFC;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#logo div {
+  position: absolute;
+}
+
+#logo .red {
+  border-radius: 80px / 300px;
+  background: #fd463b;
+  height: 300px;
+  width: 380px;
+  top: -150px;
+  left: -20px;
+  -webkit-transform: rotate(45deg);
+}
+
+#logo .green {
+  border-radius: 00px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  background: #9cc492;
+  height: 400px;
+  width: 340px;
+  left: -5px;
+}
+
+#logo .white {
+  background: #FFC;
+  border-radius: 150px;
+  -webkit-border-radius: 140px;
+  -moz-border-radius: 150px;
+  height: 215px;
+  width: 340px;
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-15deg);
+}
+/*End #logo*/
+
+/* Begin navbar CSS*/
+.navbar-toggle .icon-bar:nth-of-type(2) {
+  top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  top: 1px;
+}
+
+.navbar-toggle .icon-bar {
+  position: relative;
+  transition: all ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(4) {
+  top: -7px;
+  transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+  background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+  top: -2px;
+  transform: rotate(-45deg);
+}
+/*End navbar CSS*/
