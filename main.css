@@ -3,93 +3,36 @@ body {
 }
 
 .jumbotron {
-  background: url(https://images.unsplash.com/photo-1436891620584-47fd0e565afb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=df6386c2e327ae9dbc7e5be0bef4e1d6) no-repeat center center fixed;
+  background: url(https://images.unsplash.com/photo-1454894591093-3530b06939bf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e811032cc41ccd14c2e00a30389aa60b) no-repeat center center fixed;
   background-size: cover;
   min-height: 100%;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 0px;
 }
 
 #tri-be {
   background: url(https://images.unsplash.com/photo-1456610981819-586798dc53e2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1bc6c5b410fb1a4e13e2473ae5ea1c57) no-repeat center center fixed;
   background-size: cover;
-  min-height: 100%;
+  min-height: 600px;
 }
 
 #inscri-be {
-  background: url(https://images.unsplash.com/photo-1451186242394-2b461812025b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=4d28a86f983f06d787b0b24ef90d89ad) no-repeat center center fixed;
+  background: url(https://images.unsplash.com/photo-1457799496977-4b2d5129fc79?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c23ddd5da683c1c722777be029f2e19d) no-repeat center center fixed;
   background-size: cover;
-  min-height: 100%;
+  min-height: 600px;
 }
 
 #subscri-be {
-  background: url(https://images.unsplash.com/photo-1443479579455-1860f114bf77?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0c4227af4ee924c7af3b22e5bf1baa10) no-repeat center center fixed;
+  background: url(https://images.unsplash.com/photo-1444682717031-a2498d603d5b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7b3f482ba652b211cc6cb68a3235dffa) no-repeat center center fixed;
   background-size: cover;
-  min-height: 100%;
+  min-height: 600px;
 }
-/*Start #navLogo*/
-#navLogo {
-  height: 40px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-  width: 40px;
-  margin: 5px;
-  border-radius: 285px;
-}
-
-#navLogo div {
-  position: absolute;
-}
-
-#navLogo .red {
-  border-radius: 360px / 300px;
-  background: #fd463b;
-  height: 42px;
-  width: 48px;
-  top: -20px;
-  left: -4px;
-  -webkit-transform: rotate(70deg);
-}
-
-#navLogo .green {
-  border-radius: 200px;
-  -webkit-border-radius: 200px;
-  -moz-border-radius: 200px;
-  background: #9cc492;
-  height: 40px;
-  width: 40px;
-}
-
-#navLogo .white {
-  background: #FFC;
-  border-radius: 150px;
-  -webkit-border-radius: 140px;
-  -moz-border-radius: 150px;
-  height: 29px;
-  width: 33px;
-  left: 3px;
-  -webkit-transform: rotate(-12deg);
-  -moz-transform: rotate(-12deg);
-}
-
-#navLogo .outside {
-  height: 50px;
-  width: 50px;
-  border-radius: 285px;
-  -webkit-border-radius: 285px;
-  -moz-border-radius: 285px;
-  border: 6px solid #9cc492;
-  left: -5px;
-  top: -5px;
-}
-/*End #navLogo*/
 
 /* Begin #logo */
 #logo {
   height: 320px;
   margin: 0px auto;
-  padding: 2px 2px;
+  margin-bottom: 100px;
   overflow: hidden;
   position: relative;
   width: 320px;
