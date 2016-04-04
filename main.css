@@ -13,7 +13,7 @@ body {
 #tri-be {
   background: url(https://images.unsplash.com/photo-1456610981819-586798dc53e2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1bc6c5b410fb1a4e13e2473ae5ea1c57) no-repeat center center fixed;
   background-size: cover;
-  min-height: 600px;
+  min-height: 100%;
 }
 
 #inscri-be {
@@ -26,6 +26,21 @@ body {
   background: url(https://images.unsplash.com/photo-1444682717031-a2498d603d5b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7b3f482ba652b211cc6cb68a3235dffa) no-repeat center center fixed;
   background-size: cover;
   min-height: 600px;
+}
+
+.feat h1 {
+    
+    background-color: #F5F5F5;
+    opacity: .8;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.feat p {
+    font-size: 20px;
+    padding: 40px;
+    padding-bottom: 80px;
 }
 
 /* Begin #logo */
