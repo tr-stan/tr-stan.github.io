@@ -3,29 +3,32 @@ body {
 }
 
 .jumbotron {
-  background: url(https://images.unsplash.com/photo-1454894591093-3530b06939bf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e811032cc41ccd14c2e00a30389aa60b) no-repeat center center fixed;
+  background: url(https://images.unsplash.com/photo-1454894591093-3530b06939bf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e811032cc41ccd14c2e00a30389aa60b) no-repeat center top;
   background-size: cover;
-  min-height: 100%;
+  height: 100%;
   margin-top: 30px;
   margin-bottom: 0px;
 }
 
 #tri-be {
-  background: url(https://images.unsplash.com/photo-1456610981819-586798dc53e2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1bc6c5b410fb1a4e13e2473ae5ea1c57) no-repeat center center fixed;
+  background: url(https://images.unsplash.com/photo-1456610981819-586798dc53e2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1bc6c5b410fb1a4e13e2473ae5ea1c57) no-repeat center center;
   background-size: cover;
-  min-height: 100%;
+  -webkit-backface-visibility: hidden;
+  min-height: 800px;
 }
 
 #inscri-be {
-  background: url(https://images.unsplash.com/photo-1457799496977-4b2d5129fc79?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c23ddd5da683c1c722777be029f2e19d) no-repeat center center fixed;
+  background: url(https://images.unsplash.com/photo-1457799496977-4b2d5129fc79?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c23ddd5da683c1c722777be029f2e19d) no-repeat center center;
   background-size: cover;
-  min-height: 600px;
+  -webkit-backface-visibility: hidden;
+  min-height: 800px;
 }
 
 #subscri-be {
-  background: url(https://images.unsplash.com/photo-1444682717031-a2498d603d5b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7b3f482ba652b211cc6cb68a3235dffa) no-repeat center center fixed;
+  background: url(https://images.unsplash.com/photo-1444682717031-a2498d603d5b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7b3f482ba652b211cc6cb68a3235dffa) no-repeat center center;
   background-size: cover;
-  min-height: 600px;
+  -webkit-backface-visibility: hidden;
+  min-height: 800px;
 }
 
 .feat h1 {
