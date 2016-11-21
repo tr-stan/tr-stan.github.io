@@ -2,6 +2,31 @@ body {
   font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
 }
 
+p {
+  font-size: 23px;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+a:hover {
+  color:white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#media {
+  text-decoration: none;
+  text-align: center;
+}
+#media a {
+  margin-left: 2%;
+  margin-right: 2%;
+  background:#9cc492;
+  color: inherit;
+}
+
 .jumbotron {
   background: url(https://images.unsplash.com/photo-1454894591093-3530b06939bf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e811032cc41ccd14c2e00a30389aa60b) no-repeat center top;
   background-size: cover;
@@ -9,44 +34,41 @@ body {
   margin-top: 30px;
   margin-bottom: 0px;
 }
-
+#profile {
+  border-radius: 215px;
+  max-width: 100%;
+  padding: 20px;
+}
 #tri-be {
-  background: url(https://images.unsplash.com/photo-1456610981819-586798dc53e2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1bc6c5b410fb1a4e13e2473ae5ea1c57) no-repeat center center;
+  background: #9cc492;
   background-size: cover;
   -webkit-backface-visibility: hidden;
-  min-height: 800px;
+  min-height: 550px;
 }
 
 #inscri-be {
-  background: url(https://images.unsplash.com/photo-1457799496977-4b2d5129fc79?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c23ddd5da683c1c722777be029f2e19d) no-repeat center center;
+  background: url(https://hd.unsplash.com/photo-1451186242394-2b461812025b) no-repeat center center;
   background-size: cover;
   -webkit-backface-visibility: hidden;
   min-height: 800px;
 }
 
-#subscri-be {
-  background: url(https://images.unsplash.com/photo-1444682717031-a2498d603d5b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7b3f482ba652b211cc6cb68a3235dffa) no-repeat center center;
-  background-size: cover;
-  -webkit-backface-visibility: hidden;
-  min-height: 800px;
+
+.feat {
+  padding-top: 40px;
 }
 
 .feat h1 {
-    
-    background-color: #F5F5F5;
-    opacity: .8;
-    margin: 10px;
-    padding: 5px;
-    display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  display: inline-block;
 }
+.feat h2 {
 
-.feat p {
-    font-size: 20px;
-    padding: 40px;
-    padding-bottom: 80px;
 }
 
 /* Begin #logo */
+
 #logo {
   height: 320px;
   margin: 0px auto;
@@ -104,9 +126,13 @@ body {
   -webkit-transform: rotate(-1deg);
   -moz-transform: rotate(-15deg);
 }
+
+
 /*End #logo*/
 
+
 /* Begin navbar CSS*/
+
 .navbar-toggle .icon-bar:nth-of-type(2) {
   top: 1px;
 }
@@ -133,4 +159,6 @@ body {
   top: -2px;
   transform: rotate(-45deg);
 }
+
+
 /*End navbar CSS*/
