@@ -1,5 +1,5 @@
 body {
-  font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+  font-family: Futura, “Trebuchet MS”, Arial, serif;
 }
 
 p {
@@ -20,6 +20,7 @@ a:hover {
   text-decoration: none;
   text-align: center;
 }
+
 #media a {
   margin-left: 2%;
   margin-right: 2%;
