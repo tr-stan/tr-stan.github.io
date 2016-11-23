@@ -4,8 +4,6 @@ body {
 
 p {
   font-size: 23px;
-  margin-top: 40px;
-  padding: 20px;
   text-align: justify;
   letter-spacing: 2px;
 }
@@ -29,6 +27,10 @@ a:hover {
   background:#9cc492;
   color: inherit;
 }
+.btn-block {
+  margin: 0 auto;
+  padding: 5px 10px;
+}
 
 .jumbotron {
   background: url(https://images.unsplash.com/photo-1454894591093-3530b06939bf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e811032cc41ccd14c2e00a30389aa60b) no-repeat center top;
@@ -47,6 +49,14 @@ a:hover {
   background-size: cover;
   -webkit-backface-visibility: hidden;
   min-height: 550px;
+}
+
+#tri-be p {
+  font-size: 23px;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: justify;
+  letter-spacing: 2px;
 }
 
 #inscri-be {
