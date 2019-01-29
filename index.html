@@ -1,70 +1,88 @@
 <!doctype html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <script   src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- required meta tags for Bootstrap -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- link to this project's main.css file -->
+<link rel="stylesheet" type="text/css" href="main.css">
 
 <body>
-  <!-- start navigation bar -->
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
+    <!-- start navigation bar -->
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
 
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand active" href="#">TRISTAN BENNETT</a>
-      </div>
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav pull-right">
-          <li><a href="#">TRI-BE</a></li>
-          <li><a href="#">INSCRI-BE</a></li>
-        </ul>
-      </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">tri;be <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">tri;be</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">tri__be</a></li>
+            <li><a href="#">inscri__be</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <!-- end navigation bar -->
+    <!-- start jumbotron -->
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <div id="logo">
+                <div class="green"></div>
+                <div class="white"></div>
+                <div class="red"></div>
+                <div class="outside"></div>
+                <h1>tr;be</h1>
+            </div>
+            <div id="media">
+                <a class=" col-xs-12 col-md-3 btn btn-lg btn-block" href="https://github.com/tri-be" target="blank_">Github</a>
+                <a class=" col-xs-12 col-md-3 btn btn-lg btn-block" href="https://www.instagram.com/tri__be/?hl=en" target="blank_">@tri__be</a>
+                <a class=" col-xs-12 col-md-3 btn btn-lg btn-block" href="https://codepen.io/tri-be/" target="blank_">CodePen</a>
+            </div>
+        </div>
     </div>
-  </nav>
-  <!-- end navigation bar -->
-  <!-- start jumbotron -->
-  <div class="jumbotron">
-    <div class="container-fluid">
-      <div id="logo">
-        <div class="green"></div>
-        <div class="white"></div>
-        <div class="red"></div>
-        <div class="outside"></div>
-        <h1>TRI-BE</h1>
-      </div>
-      <div class="col-xs-12" id="media">
-        <a class="btn btn-lg btn-block" href="https://github.com/tri-be" target="blank_">Github</a>
-        <a class="btn btn-lg btn-block" href="https://www.instagram.com/ittybittytritty_/?hl=en" target="blank_">@ittybittytritty_</a>
-        <a class="btn btn-lg btn-block" href="https://codepen.io/tri-be/" target="blank_">CodePen</a>
-      </div>
+    <!-- start tri-be -->
+    <div id="tri-be" class="container-fluid">
+        <div class="col-md-12 text-center feat">
+            <h2>:tri__be:</h2>
+        </div>
+        <div class="col-md-6 text-center">
+            <img id="profile" src="https://i.imgur.com/KwtjRrm.jpg" />
+        </div>
+        <div class="col-md-6 text-center">
+            <h3>:Hello, Cosmos:</h3>
+            <p>
+             Salut! I'm Tristan--a global & cosmopolitan polyglot, avid bicylcist, and web developer--and I have a confession to make. I have always loved for human languages, and one day decided to give a computer language a try as well. That is how my love affair with JavaScript started...
+            </p>
+        </div>
     </div>
-  </div>
-
-  <!-- start tri-be -->
-  <div id="tri-be" class="container-fluid">
-    <div class="col-md-12 text-center feat">
-      <h1>TRI-BE</h1></div>
-    <div class="col-md-6 text-center">
-      <img id="profile" src="https://goo.gl/1R3i2L" />
+    <!-- start inscri-be -->
+    <div id="inscri-be" class="container-fluid feat">
+        <center>
+            <h2>:inscri__be:</h2>
+        </center>
     </div>
-    <div class="col-md-6 text-center">
-      <p>
-        I'm Tristan, a cosmopolitan polyglot and avid bicylcist who has ventured into the realm of front-end development. I always had an intense love for languages, but never thought that love could apply to computer languages as well. One day I stumbled upon
-        some free online resources, and quickly learned I enjoy computer languages as well! This is my first attempt at a full webpage so I hope you enjoy!
-      </p>
-    </div>
-  </div>
-  <!-- start inscri-be -->
-  <div id="inscri-be" class="container-fluid feat">
-    <center>
-      <h1>INSCRI-BE</h1></center>
-  </div>
-
-  <script src="main.js"></script>
+        <!-- Bootstrap relevant scripts -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- script to main.js file in this project -->
+        <script src="main.js"></script>
 </body>
