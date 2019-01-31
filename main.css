@@ -8,12 +8,17 @@ body {
 }
 
 h2 {
+  font-size: 4vw;
   padding: 5px;
   display: inline-block;
 }
 
+h3 {
+font-size: 3vw;
+}
+
 p {
-  font-size: 2vw;
+  font-size: 2.5vw;
   text-align: justify;
   letter-spacing: 2px;
 }
@@ -24,22 +29,23 @@ a:hover {
   cursor: pointer;
 }
 
-#media {
-  text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  width: 100%;
-}
 
 button, .btn {
   background:#9cc492;
+  padding: 5px 10px;
+  margin: 5px;
 }
 
 a {
-  color: inherit;
+  color: #001;
   text-align: center;
+  text-decoration: none;
 }
 
+#buttons {
+  margin: 0 auto;
+  text-align: center;
+}
 
 .jumbotron {
   background: url(mt-rainier.jpeg) no-repeat center top;
@@ -50,8 +56,10 @@ a {
 }
 #profile {
   border-radius: 50%;
-  max-width: 95%;
   padding: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
 }
 #tri-be {
   background: #9cc492;
@@ -60,10 +68,8 @@ a {
 }
 
 #tri-be p {
-  font-size: 23px;
-  margin-top: 40px;
   padding: 20px;
-  
+  display: inline-block;
 }
 
 #inscri-be {
@@ -90,10 +96,10 @@ a {
 #logo h1 {
   margin: 0 auto;
   position: relative;
-  left: 145px;
-  top: 120px;
+  left: 125px;
+  top: 80px;
   color: #f3e9eb;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
 }
 
