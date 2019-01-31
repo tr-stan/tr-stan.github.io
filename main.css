@@ -1,12 +1,19 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+  text-align: justify;
+}
+
+h2 {
+  padding: 5px;
+  display: inline-block;
 }
 
 p {
-  font-size: 23px;
+  font-size: 2vw;
   text-align: justify;
   letter-spacing: 2px;
 }
@@ -24,10 +31,15 @@ a:hover {
   width: 100%;
 }
 
-#media a {
+button {
   background:#9cc492;
-  color: inherit;
 }
+
+a {
+  color: inherit;
+  text-align: center;
+}
+
 .btn-block {
   margin: 0 auto;
   padding: 5px 10px;
@@ -55,26 +67,13 @@ a:hover {
   font-size: 23px;
   margin-top: 40px;
   padding: 20px;
-  text-align: justify;
-  letter-spacing: 2px;
+  
 }
 
 #inscri-be {
   background: url(rivers-iceland.jpeg) no-repeat center center;
   background-size: cover;
-  -webkit-backface-visibility: hidden;
   min-height: 800px;
-}
-
-
-.feat {
-  padding-top: 40px;
-}
-
-.feat h2 {
-  margin: 10px;
-  padding: 5px;
-  display: inline-block;
 }
 
 /* Begin #logo */
@@ -97,7 +96,7 @@ a:hover {
   position: relative;
   left: 145px;
   top: 120px;
-  color: #FFC;
+  color: #f3e9eb;
   font-size: 40px;
   font-weight: bold;
 }
@@ -107,19 +106,17 @@ a:hover {
 }
 
 #logo .red {
-  border-radius: 80px / 300px;
-  background: #fd463b;
+  border-radius: 200px / 50px;
+  background: #C4929C;
   height: 300px;
   width: 380px;
   top: -150px;
-  left: -20px;
-  -webkit-transform: rotate(45deg);
+  left: -15px;
+  transform: rotate(48deg);
 }
 
 #logo .green {
-  border-radius: 00px;
-  -webkit-border-radius: 200px;
-  -moz-border-radius: 200px;
+  border-radius: 200px;
   background: #9cc492;
   height: 400px;
   width: 340px;
@@ -127,14 +124,11 @@ a:hover {
 }
 
 #logo .white {
-  background: #FFC;
+  background: #f3e9eb;
   border-radius: 150px;
-  -webkit-border-radius: 140px;
-  -moz-border-radius: 150px;
-  height: 215px;
-  width: 340px;
-  -webkit-transform: rotate(-1deg);
-  -moz-transform: rotate(-15deg);
+  height: 190px;
+  width: 360px;
+  transform: rotate(-3deg);
 }
 
 
@@ -142,33 +136,5 @@ a:hover {
 
 
 /* Begin navbar CSS*/
-
-.navbar-toggle .icon-bar:nth-of-type(2) {
-  top: 1px;
-}
-
-.navbar-toggle .icon-bar:nth-of-type(3) {
-  top: 1px;
-}
-
-.navbar-toggle .icon-bar {
-  position: relative;
-  transition: all ease-in-out;
-}
-
-.navbar-toggle.active .icon-bar:nth-of-type(4) {
-  top: -7px;
-  transform: rotate(45deg);
-}
-
-.navbar-toggle.active .icon-bar:nth-of-type(2) {
-  background-color: transparent;
-}
-
-.navbar-toggle.active .icon-bar:nth-of-type(3) {
-  top: -2px;
-  transform: rotate(-45deg);
-}
-
 
 /*End navbar CSS*/
