@@ -1,140 +1,103 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
-  text-align: justify;
+    font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+    text-align: justify;
 }
 
 h2 {
-  font-size: 4vw;
-  padding: 5px;
-  display: inline-block;
+    font-size: 4vw;
+    padding: 5px;
+    display: inline-block;
 }
 
 h3 {
-font-size: 3vw;
+    font-size: 3vw;
 }
 
 p {
-  font-size: 2.5vw;
-  text-align: justify;
-  letter-spacing: 2px;
+    font-size: 2.5vw;
+    text-align: justify;
+    letter-spacing: 2px;
 }
 
 a:hover {
-  color:white;
-  text-decoration: none;
-  cursor: pointer;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
-button, .btn {
-  background:#9cc492;
-  padding: 5px 10px;
-  margin: 5px;
+button,
+.btn {
+    background: #9cc492;
+    padding: 5px 10px;
+    margin: 5px;
 }
 
 a {
-  color: #001;
-  text-align: center;
-  text-decoration: none;
+    color: #001;
+    text-align: center;
+    text-decoration: none;
 }
 
 #buttons {
-  margin: 0 auto;
-  text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .jumbotron {
-  background: url(mt-rainier.jpeg) no-repeat center top;
-  background-size: cover;
-  height: 100%;
-  margin-top: 30px;
-  margin-bottom: 0px;
+    background: url(mt-rainier.jpeg) no-repeat center top;
+    background-size: cover;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
+
 #profile {
-  border-radius: 50%;
-  padding: 20px;
-  max-width: 100%;
-  max-height: 100%;
-  display: inline-block;
+    border-radius: 50%;
+    padding: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
 }
+
 #tri-be {
-  background: #9cc492;
-  background-size: cover;
-  min-height: 550px;
+    background: #9cc492;
+    background-size: cover;
+    min-height: 550px;
 }
 
 #tri-be p {
-  padding: 20px;
-  display: inline-block;
+    padding: 20px;
+    display: inline-block;
 }
 
 #inscri-be {
-  background: url(rivers-iceland.jpeg) no-repeat center center;
-  background-size: cover;
-  min-height: 800px;
+    background: url(rivers-iceland.jpeg) no-repeat center center;
+    background-size: cover;
+    min-height: 800px;
 }
 
 /* Begin #logo */
 
 #logo {
-  height: 320px;
-  margin: 0px auto;
-  margin-bottom: 100px;
-  overflow: hidden;
-  position: relative;
-  width: 320px;
-  margin-top: 50px;
-  border-radius: 285px;
-  -webkit-border-radius: 285px;
-  -moz-border-radius: 285px;
-}
-
-#logo h1 {
-  margin: 0 auto;
-  position: relative;
-  left: 125px;
-  top: 80px;
-  color: #f3e9eb;
-  font-size: 60px;
-  font-weight: bold;
-}
-
-#logo div {
-  position: absolute;
-}
-
-#logo .red {
-  border-radius: 200px / 50px;
-  background: #C4929C;
-  height: 300px;
-  width: 380px;
-  top: -150px;
-  left: -15px;
-  transform: rotate(48deg);
-}
-
-#logo .green {
-  border-radius: 200px;
-  background: #9cc492;
-  height: 400px;
-  width: 340px;
-  left: -5px;
-}
-
-#logo .white {
-  background: #f3e9eb;
-  border-radius: 150px;
-  height: 190px;
-  width: 360px;
-  transform: rotate(-3deg);
+    margin: 0 auto;
 }
 
 
-/*End #logo*/
+#logo img {
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+}
+
+
 
 
 /* Begin navbar CSS*/
