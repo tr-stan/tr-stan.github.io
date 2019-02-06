@@ -3,13 +3,8 @@
 }
 
 html {
-    font-size: 18px;
+    font-size: 20px;
 }
-
-@media() {
-
-}
-
 
 body {
     font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
@@ -19,6 +14,7 @@ body {
 h2 {
     font-size: 2rem;
     padding: 5px;
+    margin-top: 10px;
     display: inline-block;
 }
 
@@ -84,10 +80,46 @@ button,
     background-size: cover;
     min-height: 800px;
 }
+
 #contact {
     background: url(mtrainier.jpeg) no-repeat center bottom;
     background-size: cover;
     min-height: 800px;
+}
+
+#spin:after {
+    content: "";
+    animation: spin 20s linear forwards;
+}
+
+@keyframes spin {
+    0%, 100% {
+        content: "hello cosmos";
+    }
+
+    15% {
+        content: "selâmlar evren";
+    }
+
+    30% {
+        content: "bonjour le monde";
+    }
+
+    45% {
+        content: "안녕하세요 코스모스";
+    }
+
+    60% {
+        content: "سلامونه نړۍ";
+    }
+
+    75% {
+        content: "hola cosmos";
+    }
+
+    90% {
+        content: "こんにちは コスモス";
+    }
 }
 
 /* Begin #logo */
@@ -106,9 +138,4 @@ button,
     border-radius: 50%;
 }
 
-
-
-
-/* Begin navbar CSS*/
-
-/*End navbar CSS*/
+@media() {}
