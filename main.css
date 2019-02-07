@@ -13,9 +13,11 @@ body {
 
 h2 {
     font-size: 2rem;
-    padding: 5px;
+    padding: 5px 10px;
     margin-top: 10px;
     display: inline-block;
+    background: #9cc492;
+    border-radius: 5%;
 }
 
 h3 {
@@ -26,6 +28,7 @@ p {
     font-size: 1rem;
     text-align: justify;
     letter-spacing: 2px;
+    color: #383637;
 }
 
 a {
@@ -40,6 +43,14 @@ a:hover {
     cursor: pointer;
 }
 
+ img {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+ul {
+    border-radius: 10%;
+}
 
 button,
 .btn {
@@ -53,22 +64,30 @@ button,
     text-align: center;
 }
 
+.vertical_center {
+    display: flex;
+    align-items: center;
+}
+
 .jumbotron {
     background: url(mt-rainier.jpeg) no-repeat center top;
     background-size: cover;
-    height: 100%;
+    min-height: 800px;
     margin-bottom: -5px;
 }
 
 #profile {
+    display: flex;
+    align-items: center;
     border-radius: 50%;
     padding: 20px;
+    padding-bottom: 40px;
 }
 
 #about {
     background: #9cc492;
     background-size: cover;
-    min-height: 550px;
+    min-height: 800px;
 }
 
 #about p {
@@ -76,29 +95,33 @@ button,
 }
 
 #work {
-    background: url(rivers-iceland.jpeg) no-repeat center center;
+    background-color: #383637;
     background-size: cover;
     min-height: 800px;
 }
 
 #contact {
-    background: url(mtrainier.jpeg) no-repeat center bottom;
+    background: url(rivers-iceland.jpeg) no-repeat center bottom;
     background-size: cover;
     min-height: 800px;
 }
 
 #spin:after {
     content: "";
-    animation: spin 20s linear forwards;
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-timing-function: linear; 
+    animation-fill-mode: forwards;
 }
 
 @keyframes spin {
     0%, 100% {
-        content: "hello cosmos";
+        content: "hello world";
     }
 
     15% {
-        content: "selâmlar evren";
+        content: "selâmlar dünya";
     }
 
     30% {
@@ -106,7 +129,7 @@ button,
     }
 
     45% {
-        content: "안녕하세요 코스모스";
+        content: "안녕하세요 세상";
     }
 
     60% {
@@ -114,11 +137,11 @@ button,
     }
 
     75% {
-        content: "hola cosmos";
+        content: "hola mundo";
     }
 
     90% {
-        content: "こんにちは コスモス";
+        content: "こんにちは世界";
     }
 }
 
