@@ -2,12 +2,9 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 20px;
-}
-
 body {
     font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -17,7 +14,7 @@ h2 {
     margin-top: 10px;
     display: inline-block;
     background: #9cc492;
-    border-radius: 5%;
+    border-radius: 5px;
 }
 
 h3 {
@@ -45,23 +42,11 @@ a:hover {
 
  img {
     margin: 0 auto;
-    padding: 5px;
 }
 
 ul {
-    border-radius: 10%;
-}
-
-button,
-.btn {
-    background: #9cc492;
-    padding: 5px 10px;
-    margin: 5px;
-}
-
-#buttons {
-    margin: 0 auto;
-    text-align: center;
+    border-radius: 5px;
+    margin: 5px auto;
 }
 
 .vertical_center {
@@ -76,12 +61,17 @@ button,
     margin-bottom: -5px;
 }
 
+.row {
+    padding: 10px;
+    margin:;
+}
+
+
 #profile {
     display: flex;
     align-items: center;
-    border-radius: 50%;
-    padding: 20px;
-    padding-bottom: 40px;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 #about {
@@ -104,6 +94,18 @@ button,
     background: url(images/rivers-iceland.jpeg) no-repeat center bottom;
     background-size: cover;
     min-height: 800px;
+}
+
+button,
+.btn {
+    background: #9cc492;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+#buttons {
+    margin: 0 auto;
+    text-align: center;
 }
 
 #spin:after {
@@ -160,5 +162,3 @@ button,
     width: 320px;
     border-radius: 50%;
 }
-
-@media() {}
