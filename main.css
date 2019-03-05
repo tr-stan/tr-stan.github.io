@@ -70,7 +70,7 @@ button,
 }
 
 .jumbotron {
-    background: url(mt-rainier.jpeg) no-repeat center top;
+    background: url(images/mt-rainier.jpeg) no-repeat center top;
     background-size: cover;
     min-height: 800px;
     margin-bottom: -5px;
@@ -101,7 +101,7 @@ button,
 }
 
 #contact {
-    background: url(rivers-iceland.jpeg) no-repeat center bottom;
+    background: url(images/rivers-iceland.jpeg) no-repeat center bottom;
     background-size: cover;
     min-height: 800px;
 }
