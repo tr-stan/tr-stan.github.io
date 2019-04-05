@@ -1,35 +1,50 @@
 * {
     box-sizing: border-box;
+    margin:  0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
     font-size: 20px;
+    color: #212021;
     text-align: justify;
+    margin: 0 auto;
+    max-width:  100%;
 }
 
 h2 {
     font-size: 2rem;
+    font-weight: bold;
     padding: 5px 10px;
     margin-top: 10px;
     display: inline-block;
-    background: #9cc492;
+    background: #8CB083;
     border-radius: 5px;
 }
 
 h3 {
     font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 5px;
+    background: #8CB083;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0px;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-align: justify;
     letter-spacing: 2px;
-    color: #383637;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 a {
-    color: #001;
+    color: #212021;
     text-align: center;
     text-decoration: none;
 }
@@ -42,65 +57,81 @@ a:hover {
 
  img {
     margin: 0 auto;
+
 }
 
 ul {
     border-radius: 5px;
-    margin: 5px auto;
+    list-style-type: none;
+    text-align: center;
 }
 
-.vertical_center {
+li{
+    padding: 10px;
+    margin: 15px 10px;
+    background: #8CB083;
+    border-radius: 5px; 
+}
+
+.navbar-brand {
+    margin-left: 15px; 
+}
+.navbar-nav {
+   margin-right: 15px; 
+}
+
+.feat {
+    padding:  20px;
+}
+
+.vertical-center {
     display: flex;
     align-items: center;
-}
-
-.jumbotron {
-    background: url(images/mt-rainier.jpeg) no-repeat center top;
-    background-size: cover;
-    min-height: 800px;
-    margin-bottom: -5px;
 }
 
 .row {
     padding: 10px;
-    margin:;
 }
 
+.shuffle {
+    padding: 20px;
+}
+
+#tri-be {
+    background: url(images/mt-rainier.jpeg) no-repeat center top;
+    background-size: cover;
+    min-height: calc(100vh - 55px);
+    padding-top: 60px;
+}
+
+#about {
+    background: #8CB083;
+    height: auto;
+    min-height: 100vh;
+    
+}
 
 #profile {
-    display: flex;
-    align-items: center;
     border-radius: 5px;
     padding: 10px;
 }
 
-#about {
-    background: #9cc492;
+#skills {
+    background: url(images/rivers-iceland.jpeg) no-repeat center;
     background-size: cover;
-    min-height: 800px;
-}
-
-#about p {
-    padding: 20px;
+    min-height: 100vh;
 }
 
 #work {
     background-color: #383637;
     background-size: cover;
-    min-height: 800px;
+    min-height: 100vh;
 }
 
-#contact {
-    background: url(images/rivers-iceland.jpeg) no-repeat center bottom;
-    background-size: cover;
-    min-height: 800px;
-}
-
-button,
-.btn {
-    background: #9cc492;
+.btn-lg {
+    background: rgba(140,176,131, 0.8);
     padding: 5px 10px;
-    margin: 5px;
+    margin: 5px auto;
 }
 
 #buttons {
@@ -108,16 +139,26 @@ button,
     text-align: center;
 }
 
-#spin:after {
+#spin {
+    margin: 0 auto;
+}
+
+#spin h2 {
+    margin: 0 auto;
+}
+
+/* #spin:after {
     content: "";
+    display: inline-block;
+    text-align: center;
     animation-name: spin;
     animation-iteration-count: infinite;
     animation-duration: 20s;
-    animation-timing-function: linear; 
+    animation-timing-function: steps(7, start); 
     animation-fill-mode: forwards;
-}
+} */
 
-@keyframes spin {
+/* @keyframes spin {
     0%, 100% {
         content: "hello world";
     }
@@ -143,9 +184,9 @@ button,
     }
 
     90% {
-        content: "こんにちは世界";
+        content: "こんにちは 世界";
     }
-}
+} */
 
 /* Begin #logo */
 
