@@ -64,12 +64,12 @@ ul {
     border-radius: 5px;
     list-style-type: none;
     text-align: center;
+    background: rgba(140,176,131, 0.9);
 }
 
 li{
     padding: 10px;
     margin: 15px 10px;
-    background: rgba(140,176,131, 0.9);
     border-radius: 5px; 
 }
 
@@ -97,18 +97,18 @@ li{
     padding: 20px;
 }
 
+
 #tri-be {
-    background: url(images/mt-rainier.jpeg) no-repeat center top;
+    background: url(images/mt-rainier.jpeg) no-repeat center top fixed;
     background-size: cover;
     min-height: calc(100vh - 55px);
     padding-top: 60px;
 }
 
 #about {
-    background: #8CB083;
+    background-color: rgba(140,176,131, 1);
     height: auto;
     min-height: 100vh;
-    
 }
 
 #profile {
@@ -117,8 +117,6 @@ li{
 }
 
 #skills {
-    background: url(images/rivers-iceland.jpeg) no-repeat center;
-    background-size: cover;
     min-height: 100vh;
 }
 
@@ -147,46 +145,10 @@ li{
     margin: 0 auto;
 }
 
-/* #spin:after {
-    content: "";
-    display: inline-block;
-    text-align: center;
-    animation-name: spin;
-    animation-iteration-count: infinite;
-    animation-duration: 20s;
-    animation-timing-function: steps(7, start); 
-    animation-fill-mode: forwards;
-} */
-
-/* @keyframes spin {
-    0%, 100% {
-        content: "hello world";
-    }
-
-    15% {
-        content: "selâmlar dünya";
-    }
-
-    30% {
-        content: "bonjour le monde";
-    }
-
-    45% {
-        content: "안녕하세요 세상";
-    }
-
-    60% {
-        content: "سلامونه نړۍ";
-    }
-
-    75% {
-        content: "hola mundo";
-    }
-
-    90% {
-        content: "こんにちは 世界";
-    }
-} */
+#work img {
+    margin: 0 auto;
+    max-height: 700px;
+}
 
 /* Begin #logo */
 
