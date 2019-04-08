@@ -6,7 +6,6 @@
     <!-- required meta tags for Bootstrap -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- link to this project's main.css file -->
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="icon" href="./images/tri-be_circle.png">
@@ -14,137 +13,99 @@
 
 <body>
     <!-- start navigation bar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="#">tr;be</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#about">about
-                    <!-- <span class="sr-only">(current)</span> --></a>
-                <a class="nav-item nav-link" href="#work">work</a>
-                <!-- <a class="nav-item nav-link" href="#contact">contact</a> -->
-                <!-- <a class="nav-item nav-link disabled" href="#">subscr;be</a> -->
-            </div>
-        </div>
+    <nav>
+        <!-- <a class="navbar-brand" href="#">tr;be</a> -->
+        <a class="navbar-item" href="#about">about</a>
+        <a class="navbar-item" href="#work">work</a>
     </nav>
     <!-- end navigation bar -->
-    <!-- start jumbotron -->
-    <section id="tri-be" class="container-fluid feat">
+    <!-- start tri-be -->
+    <section id="tri-be" class="container feat">
         <div id="logo">
             <img src="./images/tri-be.png" alt="tri;be logo">
         </div>
-        <div id="buttons">
-            <button class="col-xs-12 col-sm-3 btn btn-lg"><a href="https://github.com/tri-be" target="blank_">Github</a></button>
-            <button class="col-xs-12 col-sm-3 btn btn-lg"><a href="https://www.linkedin.com/in/tristanbennett1/" target="blank_">LinkedIn</a></button>
-            <button class="col-xs-12 col-sm-3 btn btn-lg"><a href="https://www.instagram.com/tri__be/?hl=en" target="blank_">@tri__be</a></button>
+        <div id="media">
+            <a href="https://github.com/tri-be" target="blank_"><img class="icon" src="./images/github.png"></a>
+            <a href="https://www.linkedin.com/in/tristanbennett1/" target="blank_"><img class="icon" src="./images/linkedin.png"></a>
+            <a href="https://www.instagram.com/tri__be/?hl=en" target="blank_"><img class="icon" src="./images/instagram.png"></a>
         </div>
     </section>
-    <!-- start tri-be -->
-    <section id="about" class="container-fluid feat vertical-center">
-        <div class="row">
-            <div class="col-sm-7 col-lg-3 text-center vertical-center" id="spin">
-                <h2 class="shuffle" id="one">hello world</h2>
-                <h2 class="shuffle" id="two">selâmlar dünya</h2>
-                <h2 class="shuffle" id="three">bonjour le monde</h2>
-                <h2 class="shuffle" id="four">안녕하세요 세상</h2>
-                <h2 class="shuffle" id="five">سلامونه نړۍ</h2>
-                <h2 class="shuffle" id="six">hola mundo</h2>
-                <h2 class="shuffle" id="seven">こんにちは 世界</h2>
-            </div>
-            <div class="col-sm-5 col-lg-4 text-center vertical-center">
-                <img id="profile" class="img-fluid shuffle" src="https://i.imgur.com/KwtjRrm.jpg" />
-            </div>
-            <div class="col-sm-12 col-lg-5 text-center vertical-center">
-                <div class="shuffle">
-                    <p>
-                        I'm Tristan Bennett, a globally-minded developer, ideator, polyglot ( eng | tur | fra | kor | pas | et plus ), and bicyclist.
-                    </p>
-                    <p>
-                        Filled with boundless curiosity, I bring positivity and momentum with me everywhere I go. I am an incredibly passionate individual who values action, empathy, and inclusion. I strive to create sound code without sacrificing aesthetic, and love to work at the intersection of typically-defined roles.
-                    </p>
-                </div>
-            </div>
+    <!-- start about -->
+    <section id="about" class="container feat">
+        <div class="text-center vertical-center" id="spin">
+            <h2 class="shuffle" id="one">hello world</h2>
+            <h2 class="shuffle" id="two">selâmlar dünya</h2>
+            <h2 class="shuffle" id="three">bonjour le monde</h2>
+            <h2 class="shuffle" id="four">안녕하세요 세상</h2>
+            <h2 class="shuffle" id="five">سلامونه نړۍ</h2>
+            <h2 class="shuffle" id="six">hola mundo</h2>
+            <h2 class="shuffle" id="seven">こんにちは 世界</h2>
+        </div>
+        <img id="profile" src="https://i.imgur.com/KwtjRrm.jpg" />
+        <div id="hello">
+            <p>
+                I'm Tristan Bennett, a globally-minded developer, ideator, polyglot ( eng | tur | fra | kor | pas | et plus ), and musician.
+            </p>
+            <p>
+                Filled with boundless curiosity, I bring positivity and momentum with me everywhere I go. I am an incredibly passionate individual who values action, empathy, and inclusion. I strive to create sound code without sacrificing aesthetic, and love to work at the intersection of typically-defined roles.
+            </p>
         </div>
     </section>
-    <section id="skills" class="container-fluid feat">
-        <center>
-            <h2>skills & knowledge</h2>
-        </center>
-        <div class="row vertical-center">
-            <div class="col-md">
-                <ul class="shuffle">
-                    <li>JavaScript</li>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
-                    <li>jQuery</li>
-                    <li>React.js</li>
-                </ul>
-            </div>
-            <div class="col-md">
-                <ul class="shuffle">
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>Git</li>
-                    <li>SQL</li>
-                    <li>MongoDB</li>
-                </ul>
-            </div>
-            <div class="col-md">
-                <ul class="shuffle">
-                    <li>REST APIs</li>
-                    <li>MVC Design</li>
-                    <li>Axios</li>
-                    <li>Node-Postgres</li>
-                    <li>Mongoose</li>
-                </ul>
-            </div>
-        </div>
+    <section id="skills" class="container feat">
+        <h2>skills & knowledge</h2>
+        <ul class="card">
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>jQuery</li>
+            <li>React.js</li>
+        </ul>
+        <ul class="card">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Git</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+        </ul>
+        <ul class="card">
+            <li>REST APIs</li>
+            <li>MVC Design</li>
+            <li>Axios</li>
+            <li>Node-Postgres</li>
+            <li>Mongoose</li>
+        </ul>
     </section>
     <!-- start work section -->
-    <section id="work" class="container-fluid feat">
-        <center>
-            <h2>work</h2>
-        </center>
+    <section id="work" class="container feat">
+        <h2>work</h2>
         <!-- start card deck for displaying portfolio -->
-        <div class="col-sm-12">
-                <center>
-                    <h3>Coming Soon: Spotify Track Data Visualizer</h3>
-                </center>
-                <a href="https://spectrofy.herokuapp.com" target="blank_"><img class="img-fluid" src="./images/tri-be.png"></a>
-            </div>
-        <div class="row card-deck">
-            <div class="col-md">
-                <center>
-                    <h3>Local Weather App</h3>
-                </center>
-                <a href="https://s.codepen.io/tri-be/debug/eZLqzW/GnMnbNJJxgbM" target="blank_"><img class="img-fluid" src="./images/local-forecast.png"></a>
-            </div>
-            <div class="col-md">
-                <center>
-                    <h3>Random Quote Machine</h3>
-                </center>
-                <a href="https://s.codepen.io/tri-be/debug/groJby/jVMpoyLLqQBk" target="blank_"><img class="img-fluid" src="./images/all-greek.png"></a>
-            </div>
-            <div class="col-md">
-                <center>
-                    <h3>jQuery Maze Game</h3>
-                </center>
-                <a href="#" target="blank_"><img class="img-fluid" src="./images/tri-be.png"></a>
-            </div>
+        <div class="card">
+            <center>
+                <h3>Coming Soon: Spotify Track Data Visualizer</h3>
+            </center>
+            <a href="https://spectrofy.herokuapp.com" target="blank_"><img class="img-fluid" src="./images/tri-be.png"></a>
+        </div>
+        <div class="card">
+            <center>
+                <h3>jQuery Maze Game</h3>
+            </center>
+            <a href="#" target="blank_"><img class="img-fluid" src="./images/tri-be.png"></a>
+        </div>
+        <div class="card">
+            <center>
+                <h3>Random Quote Machine</h3>
+            </center>
+            <a href="https://s.codepen.io/tri-be/debug/groJby/jVMpoyLLqQBk" target="blank_"><img class="img-fluid" src="./images/all-greek.png"></a>
+        </div>
+        <div class="card">
+            <center>
+                <h3>Local Weather App</h3>
+            </center>
+            <a href="https://s.codepen.io/tri-be/debug/eZLqzW/GnMnbNJJxgbM" target="blank_"><img class="img-fluid" src="./images/local-forecast.png"></a>
         </div>
     </section>
-    <!-- <div id="contact" class="container-fluid feat">
-        <center>
-            <h2>contact</h2>
-        </center>
-    </div> -->
-    <!-- Bootstrap relevant scripts -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery script -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- script to main.js file in this project -->
     <script src="main.js"></script>
 </body>

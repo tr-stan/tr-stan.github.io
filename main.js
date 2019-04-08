@@ -3,9 +3,11 @@
 $(document).ready(function() {
     "use strict";
     $("#spin h2").css('display', 'none');
-    $(".navbar-toggle").on("click", function() {
-        $(this).toggleClass("active");
-    });
+
+    // toggle function for collpasible navbar
+    // $(".navbar-toggle").on("click", function() {
+    //     $(this).toggleClass("active");
+    // });
 
     function spin(element) {
         $(this).css('display', 'inline-block');
