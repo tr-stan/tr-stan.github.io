@@ -10,7 +10,7 @@ html {
 body {
     font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
     font-size: 1.4rem;
-    color: #212021;
+    color: #b7b1bb;
     text-align: justify;
     max-width:  100vw;
     background-color: rgba(56,54,55, 1);
@@ -20,18 +20,16 @@ h2 {
     font-size: 2rem;
     font-weight: bold;
     padding: 5px 10px;
+    text-align: center;
     display: inline-block;
-    background: #8CB083;
-    border-radius: 5px;
+    grid-area: 1 / 2 / 2 / 10;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
-    padding: 10px 5px;
-    background: #8CB083;
-    border-radius: 5px 5px 0 0;
-    margin-bottom: 0px;
+    padding: 15px 10px;
+    text-align: center;
 }
 
 p {
@@ -64,11 +62,14 @@ ul {
     border-radius: 5px;
     list-style-type: none;
     text-align: center;
-    background: rgba(140,176,131, 0.9);
+    padding: 20px;
+    margin: 10px auto;
+    background-color: rgba(108,73,77, 0.9);
 }
 
 li {
-    padding: 10px;
+    padding: 10px 20px;
+    min-width: 280px;
     margin: 15px 10px;
     border-radius: 5px; 
 }
@@ -90,6 +91,8 @@ nav {
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(10, minmax(10vh, auto));
     gap: 0;
+    justify-items: center;
+    align-items: center;
 }
 
 .item {
@@ -98,69 +101,34 @@ nav {
 .icon {
     max-width: 70px;
     height: auto;
-    background-color: rgba(140,176,131, 0.8);
-    padding: 10px;
+    background-color: rgba(108,73,77, 0.9);
+    padding: 5px;
     margin: 5px;
-    border-radius: 25%;
+    border-radius: 20%;
 }
+
+/* .card {
+    grid-column: 2 / 9;
+} */
 
 .vertical-center {
     display: flex;
     align-items: center;
 }
 
+/* tri-be section */
 #tri-be {
     background: url(images/mt-rainier.jpeg) no-repeat center top fixed;
     background-size: cover;
     grid-template-rows:  repeat(10, 10vh);
 }
 
-#media {
-    grid-column-start: 2;
-    grid-column-end: 10;
-    grid-row-start: 9;
-    grid-row-end: 10;
-}
-
-#about {
-    height: auto;
-    min-height: 100vh;
-    justify-items: center;
-    align-items: center;
-}
-
-#spin {
-    margin: 0 auto;
-    grid-area: 1 / 3 / 2 / 9;
-}
-
-#spin h2 {
-    margin: 10px auto;
-}
-
-#profile {
-    grid-area: 2 / 2 / 5 / 10;
-    border-radius: 50%;
-    padding: 10px;
-    max-width: 80vw;
-}
-
-#hello {
-    grid-area: 5 / 1 / 10 / 11;
-}
-
-#work img {
-    max-width: 90vw;
-}
-
-/* Begin #logo */
-
 #logo {
     margin: 0 auto;
     grid-column-start: 1;
     grid-column-end: 11;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
 }
 
 #logo img {
@@ -170,4 +138,72 @@ nav {
     height: 300px;
     width: 300px;
     border-radius: 50%;
+}
+
+#media {
+    grid-column-start: 2;
+    grid-column-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+
+/* about section */
+#about {
+    height: auto;
+    min-height: 100vh;
+}
+
+#spin {
+    margin: 0 auto;
+    height: 100px;
+    grid-area: 1 / 2 / 3 / 10;
+}
+
+#spin h2 {
+    margin: 5px auto;
+}
+
+#profile {
+    grid-area: 3 / 2 / 6 / 10;
+    border-radius: 50%;
+    padding: 10px;
+    max-width: 75vw;
+}
+
+#hello {
+    grid-area: 6 / 1 / 10 / 11;
+}
+
+/* skills section */
+#skills ul:nth-of-type(1) {
+    grid-area: 2 / 2 / 5 / 10;
+}
+
+#skills ul:nth-of-type(2) {
+    grid-area: 5 / 2 / 8 / 10;
+}
+
+#skills ul:nth-of-type(3) {
+    grid-area: 8 / 2 / 11 / 10;
+}
+
+/* work section */
+#work img {
+    max-width: 90vw;
+}
+
+#work .card:nth-of-type(1) {
+    grid-area: 2 / 2 / 4/ 10;
+}
+
+#work .card:nth-of-type(2) {
+    grid-area: 4 / 2 / 6/ 10;
+}
+
+#work .card:nth-of-type(3) {
+    grid-area: 6 / 2 / 8/ 10;
+}
+
+#work .card:nth-of-type(4) {
+    grid-area: 8 / 2 / 10/ 10;
 }
