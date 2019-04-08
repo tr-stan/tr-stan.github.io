@@ -120,6 +120,7 @@ nav {
 #tri-be {
     background: url(images/mt-rainier.jpeg) no-repeat center top fixed;
     background-size: cover;
+    height: 100%;
     grid-template-rows:  repeat(10, 10vh);
 }
 
@@ -210,4 +211,14 @@ nav {
 
 #work .card:nth-of-type(4) {
     grid-area: 8 / 1 / 10/ 11;
+}
+
+@media (min-width: 600px) {
+    #tri-be {
+        background: url(images/mt-rainier.jpeg) no-repeat center top fixed; 
+        background-size: cover;
+    }
+    .html-mobile-background {
+        display: none;
+    }
 }
