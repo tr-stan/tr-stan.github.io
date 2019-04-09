@@ -16,7 +16,7 @@ body {
     background-color: rgba(56, 54, 55, 1);
     height: 100%;
     overflow: scroll;
-    -webkit-overflow-scrolling: touch;
+    --webkit-overflow-scrolling: touch;
 }
 
 h2 {
