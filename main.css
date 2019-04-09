@@ -16,7 +16,6 @@ body {
     background-color: rgba(56, 54, 55, 1);
     height: 100%;
     overflow: scroll;
-    --webkit-overflow-scrolling: touch;
 }
 
 h2 {
@@ -122,8 +121,10 @@ nav {
 #tri-be {
     background: url(images/mt-rainier.jpeg) no-repeat center top fixed;
     background-size: cover;
+    -webkit-background-size: cover !important;
     height: 100%;
     overflow: hidden;
+    will-change: transform;
     grid-template-rows: repeat(10, 10vh);
 }
 
