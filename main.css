@@ -36,7 +36,7 @@ h3 {
 p {
     text-align: justify;
     letter-spacing: 2px;
-    padding: 10px;
+    padding: 20px;
     margin: 0 auto;
 }
 
@@ -105,15 +105,6 @@ nav {
     padding: 5px;
     margin: 5px;
     border-radius: 20%;
-}
-
-/* .card {
-    grid-column: 2 / 9;
-} */
-
-.vertical-center {
-    display: flex;
-    align-items: center;
 }
 
 /* tri-be section */
@@ -218,9 +209,5 @@ nav {
     #tri-be {
         background: url(images/mt-rainier.jpeg) no-repeat center top fixed;
         background-size: cover;
-    }
-
-    .html-mobile-background {
-        display: none;
     }
 }
