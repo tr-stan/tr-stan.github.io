@@ -109,11 +109,25 @@ nav {
 
 /* tri-be section */
 #tri-be {
-    background: url(images/mt-rainier.jpeg) no-repeat center top fixed;
+    /* background: url(images/mt-rainier.jpeg) no-repeat center top fixed;
     background-size: cover;
-    -webkit-background-size: cover !important;
+    -webkit-background-size: cover !important; */
+    z-index: 0;
     height: 100%;
     grid-template-rows: repeat(10, 10vh);
+}
+
+#about, #skills, #work {
+    z-index: 2;
+    background-color: rgba(56, 54, 55, 1);
+}
+
+.bg-img {
+    z-index: -2;
+    position: fixed;
+    top: 0;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 #logo {
@@ -205,9 +219,9 @@ nav {
     grid-area: 8 / 1 / 10/ 11;
 }
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
     #tri-be {
         background: url(images/mt-rainier.jpeg) no-repeat center top fixed;
         background-size: cover;
     }
-}
+} */
