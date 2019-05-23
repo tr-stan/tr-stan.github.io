@@ -32,7 +32,6 @@ h2 {
 h3 {
     font-size: 1.8rem;
     font-weight: bold;
-    padding: 15px 10px;
     text-align: center;
 }
 
@@ -63,16 +62,15 @@ img {
 }
 
 ul {
-    list-style-type: bengali;
+    list-style-type: none;
     padding: 20px;
+    margin-left: 20px;
     /* background-color: rgba(108, 73, 77, 0.9); */
 }
 
 li {
     padding: 10px 20px;
     font-size: 1.8rem;
-    min-width: 200px;
-    margin: 15px 10px 15px 50px;
     border-radius: 5px;
 }
 
@@ -188,9 +186,6 @@ nav {
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(10, minmax(10vh, auto));
 }
-#skills div {
-    margin: 10px 0 0 10px;
-}
 
 #skills div:nth-of-type(1) {
     grid-area: 2 / 1 / 4 / 11;
@@ -202,10 +197,6 @@ nav {
 
 #skills div:nth-of-type(3) {
     grid-area: 7 / 1 / 10 / 11;
-}
-
-#skills h3 {
-    text-align: left;
 }
 
 /* work section */
@@ -260,6 +251,15 @@ nav {
     #skills h2 {
         grid-area: 1 / 1 / 2 / 4;
     }
+
+   #skills div {
+    max-width: 33vw;
+    text-align: center;
+   }
+
+   #skills li {
+    min-height: 98px;
+   }
 
     #skills div:nth-of-type(1) {
         grid-column-start: 1;
