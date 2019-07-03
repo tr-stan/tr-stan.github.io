@@ -1,2 +1,2 @@
-# tri-be.github.io
-Portfolio Page of Tristan Bennett (tri-be)
+# tr-stan.github.io
+Portfolio Page of Tristan Bennett (tr;stan)
